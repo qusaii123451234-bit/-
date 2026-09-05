@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>موقع قصي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#about">من أنا</a>
+        <a href="#skills">مهاراتي</a>
+        <a href="#contact">تواصل معي</a>
+    </nav>
+
+    <h1 id="home">موقع قصي 🚀</h1>
+
+    <p id="message">أنا أتعلم صناعة المواقع باستخدام VS Code</p>
+
+    <button onclick="sayHello()">ابدأ الآن</button>
+
+    <div class="card" id="about">
+        <h2>من أنا؟</h2>
+        <p>أنا قصي وأتعلم تطوير المواقع خطوة بخطوة.</p>
+    </div>
+
+    <div class="card">
+        <h2>أهدافي</h2>
+        <p>أريد أن أصبح مطور ويب محترف في المستقبل.</p>
+    </div>
+
+    <div class="card" id="skills">
+        <h2>مهاراتي</h2>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+    </div>
+
+    <div class="card" id="contact">
+        <h2>تواصل معي</h2>
+        <p>يمكنك التواصل معي قريبًا.</p>
+    </div>
+
+    <script>
+        function sayHello() {
+            document.getElementById("message").innerText =
+                "أهلاً بك في موقعي الجديد 🚀";
+        }
+    </script>
+
+</body>
+
+</html>

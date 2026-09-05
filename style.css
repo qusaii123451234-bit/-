@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e0f2fe, #f5f3ff);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #111827;
+    padding: 18px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 70px;
+    color: #111827;
+}
+
+#message {
+    font-size: 21px;
+    color: #4b5563;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    background: white;
+    width: 300px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.card h2 {
+    color: #2563eb;
+}
+
+.card p {
+    font-size: 20px;
+    color: #4b5563;
+}
